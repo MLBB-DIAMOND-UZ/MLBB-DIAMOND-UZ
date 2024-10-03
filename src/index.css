@@ -1,0 +1,19 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: var(--tg-theme-bg-color);
+  color: vaar(--tg-theme-text-color);
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url(https://media2.giphy.com/media/TxVVB6PfWMjE4/200.webp?cid=ecf05e47guo9gcrt368ldnndh33x5d38vhgebo0zs1wzg20d&ep=v1_gifs_search&rid=200.webp&ct=g);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* backgtound: var(--tg-theme-bg-color);
+color: vaar(--tg-theme-text-color); */
