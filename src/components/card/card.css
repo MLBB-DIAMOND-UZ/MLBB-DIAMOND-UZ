@@ -50,8 +50,13 @@
 
 .card__body {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 480px;
+  justify-content: space-around;
+  align-content: flex-end;
+  transition: max-height var(--page-animation), opacity var(--page-animation);
+  background-color: var(--block-bg-color);
 }
 
 .card__title {
